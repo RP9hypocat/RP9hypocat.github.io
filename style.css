@@ -1,0 +1,62 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container for Centring Content */
+.container {
+    width: 80%;
+    max-width: 1200px; /* Maximum width */
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    margin: 0;
+    color: #4a90e2; /* Accent color */
+}
+
+/* Poem Styles */
+.poem {
+    margin-bottom: 40px;
+    font-size: 18px;
+    white-space: pre-wrap;
+}
+
+/* Image Styles */
+.image img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    border: 2px solid #4a90e2; /* Border color */
+    margin-bottom: 40px;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+    color: #a9a9a9; /* Subtle text color */
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
